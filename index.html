@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Mandelbrot Set</title>
+  <button onClick="window.location.href=window.location.href">Generate New</button>
+  <button onClick="popUp()">Show Equation</button>
+
+  <script>
+    function popUp() {
+      alert("f_{c}=z^{2}+c}");
+    }
+     </script>
+</head>
+
+<body>
+  <canvas id="myCanvas" style="display: block; margin-top: 100px;margin-left: auto;margin-right: auto;">
+  </canvas>
+  <p style="text-align: center;">
+    <em>double click specific point to zoom</em>
+  </p>
+  <script src="script.js" type="text/javascript"></script>
+</body>
+
+
+
+</html>
